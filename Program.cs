@@ -1,10 +1,9 @@
 ﻿using System;
-// See https://aka.ms/new-console-template for more information
 namespace Test
 {
     class Program
     {
-        static void Main(string[] args)
+        static void Main()
         {
             Console.WriteLine("What is your name?");
             var name = Console.ReadLine();
